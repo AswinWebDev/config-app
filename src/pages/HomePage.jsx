@@ -11,15 +11,21 @@ const HomePageContainer = styled.div`
 `;
 const CardContainer = styled.div`
   // height: 500px;
+  box-shadow: 0px 1px 3px #00000029;
+  opacity: 1;
 `;
 const Card = styled.img`
-  // max-width: 323px;
-  height: 488px;
+  width: 323px;
+  height: 470px;
 `;
 const CheckboxForm = styled.form`
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  // margin-left: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  // box-shadow: 0px 1px 3px #00000029;
+  opacity: 1;
+  width: 323px;
 `;
 const CheckboxInput = styled.input`
   width: 15px;
@@ -28,11 +34,14 @@ const CheckboxInput = styled.input`
   box-shadow: 0px 0px 2px #00000029;
   opacity: 1;
   margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 7.95px;
 `;
 const CheckboxLabel = styled.label`
   font: normal normal normal 11px/17px Poppins;
   letter-spacing: 0px;
   color: #7e7a7a;
+  margin-bottom: 10px;
 `;
 
 const HomePage = () => {
